@@ -1,0 +1,22 @@
+<ng-template #loader class="spinner">
+  <mat-card class="supe-card">
+    <mat-spinner></mat-spinner>
+  </mat-card>
+</ng-template>
+
+
+<div *ngIf="supe; else loader" class="supe-container">
+  <mat-card class="supe-card">
+    <img [src]="supe.image" [alt]="supe.superhero">
+  </mat-card>
+  <mat-card class="supe-card">
+    <mat-card-header>
+      <mat-card-title>
+        {{ supe.superhero}}
+      </mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      Status: {{supe.status}}
+    </mat-card-content>
+  </mat-card>
+</div>

@@ -1,0 +1,40 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>
+      {{super.superhero}}
+    </mat-card-title>
+    <mat-card-subtitle>
+      Status: {{super.status}}
+    </mat-card-subtitle>
+  </mat-card-header>
+
+  <mat-card-content class="super-content">
+    <img src="{{super.image}}" alt="">
+  </mat-card-content>
+
+  <mat-divider></mat-divider>
+
+  <mat-card-actions class="actions">
+    <button
+      mat-raised-button
+      class="buttons"
+      color="primary"
+      [routerLink]="['/supers/edit', super.id]"
+    >
+      <mat-icon>edit</mat-icon>
+      Edit
+    </button>
+
+    <button
+      mat-raised-button
+      class="buttons"
+      color="secondary"
+      [routerLink]="['/supers/id', super.id]"
+    >
+      <mat-icon>more_horiz</mat-icon>
+      More
+    </button>
+
+  </mat-card-actions>
+
+</mat-card>

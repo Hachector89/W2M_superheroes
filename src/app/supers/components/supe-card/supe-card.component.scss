@@ -1,0 +1,13 @@
+@import 'primeflex/primeflex';
+
+.super-content {
+  @include styleclass('mt-2');
+}
+
+.actions {
+  @include styleclass('flex flex-row');
+
+  .buttons {
+    @include styleclass('w-6');
+  }
+}

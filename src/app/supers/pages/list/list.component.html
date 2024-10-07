@@ -1,0 +1,24 @@
+
+
+
+<div class="search">
+  <mat-form-field class="field">
+    <mat-label>Search:</mat-label>
+    <input
+      type="text"
+      matInput
+      placeholder="superhero"
+      [formControl]="queryInput"
+      (input)="searchHero()"
+    >
+  </mat-form-field>
+</div>
+
+<div class="supes-list">
+  <div
+    class="supe"
+    *ngFor="let super of supes"
+  >
+    <app-supe-card [super]="super"></app-supe-card>
+  </div>
+</div>

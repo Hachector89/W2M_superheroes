@@ -1,0 +1,18 @@
+@import 'primeflex/primeflex';
+
+.supes-list {
+  @include styleclass('grid bm-8 pl-4');
+
+  .supe {
+    @include styleclass('col-12 sm:col-4 md:col-3 xl:col-2');
+  }
+
+}
+
+.search {
+  @include styleclass('flex flex-column pt-4 pl-4');
+
+  .field {
+    @include styleclass('max-w-30rem');
+  }
+}

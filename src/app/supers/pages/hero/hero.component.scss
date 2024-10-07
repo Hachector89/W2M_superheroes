@@ -1,0 +1,12 @@
+@import 'primeflex/primeflex';
+
+.supe-container {
+  @include styleclass('flex flex-row p-4');
+}
+
+.spinner {
+  @include styleclass('grid p-4 w-6');
+
+}
+
+

@@ -1,0 +1,33 @@
+@import 'primeflex/primeflex';
+
+.supe-container {
+  @include styleclass('p-4');
+
+  .supe-card {
+    @include styleclass('grid p-4');
+
+    .supe-card-photo{
+      @include styleclass('p-0 col-12 sm:col-6 w-3');
+      img {
+        @include styleclass('w-full');
+      }
+      .supe-card-photo-url{
+        @include styleclass('w-full');
+      }
+    }
+
+    .supe-card-data{
+      @include styleclass('p-0 col-12 sm:col-6 w-3');
+
+      mat-form-field{
+        @include styleclass('w-full py-2');
+      }
+
+      .supe-card-buttons {
+        @include styleclass('flex p-3 justify-content-between');
+      }
+    }
+  }
+
+}
+

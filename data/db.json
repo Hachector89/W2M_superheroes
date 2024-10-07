@@ -1,0 +1,78 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "usuario": "user",
+      "name": "Name Surname",
+      "email": "user@gmail.com"
+    }
+  ],
+  "heroes": [
+    {
+      "id": "v-homelander",
+      "superhero": "Homelander",
+      "status": "Alive",
+      "image": "https://static.wikia.nocookie.net/amazons-the-boys/images/5/5b/Homelander-S4.png"
+    },
+    {
+      "id": "v-thedeep",
+      "superhero": "The Deep",
+      "status": "Alive",
+      "image": "https://static.wikia.nocookie.net/amazons-the-boys/images/8/84/Deep-S4.png"
+    },
+    {
+      "id": "v-queenmaeve",
+      "superhero": "Queen Maeve",
+      "status": "Alive",
+      "image": "https://static.wikia.nocookie.net/amazons-the-boys/images/2/27/Queen-Maeve-S3.png"
+    },
+    {
+      "id": "v-atrain",
+      "superhero": "A-Train",
+      "status": "Alive",
+      "image": "https://static.wikia.nocookie.net/amazons-the-boys/images/4/4c/A-Train-S4.png"
+    },
+    {
+      "id": "v-lamplighter",
+      "superhero": "Lamplighter",
+      "status": "Deceased",
+      "image": "https://static.wikia.nocookie.net/amazons-the-boys/images/7/76/Lamplighter.png"
+    },
+    {
+      "id": "v-translucent",
+      "superhero": "Translucent",
+      "status": "Deceased",
+      "image": "https://static.wikia.nocookie.net/amazons-the-boys/images/6/63/TheSeven-Translucent.png"
+    },
+    {
+      "id": "v-blacknoir",
+      "superhero": "Black Noir",
+      "status": "Deceased",
+      "image": "https://static.wikia.nocookie.net/amazons-the-boys/images/8/8b/Black-Noire-S3.png"
+    },
+    {
+      "id": "v-stormfront",
+      "superhero": "Stormfront",
+      "status": "Deceased",
+      "image": "https://static.wikia.nocookie.net/amazons-the-boys/images/b/bd/Stormfront_S2.jpg"
+    },
+    {
+      "id": "v-firecracker",
+      "superhero": "Firecracker",
+      "status": "Alive",
+      "image": "https://static.wikia.nocookie.net/amazons-the-boys/images/9/96/Firecracker-S4.png"
+    },
+    {
+      "id": "v-sistersage",
+      "superhero": "Sister Sage",
+      "status": "Alive",
+      "image": "https://static.wikia.nocookie.net/amazons-the-boys/images/d/da/Sister-Sage-S4.png"
+    },
+    {
+      "id": "v-blacknoir2",
+      "superhero": "Black Noir II",
+      "status": "Alive",
+      "image": "https://static.wikia.nocookie.net/amazons-the-boys/images/6/69/Black-Noir-S4.png"
+    }
+  ]
+}
